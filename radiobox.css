@@ -1,0 +1,29 @@
+/* radio */
+.jquery-radiobox {
+    display:inline-block;
+    display:-moz-inline-stack;
+    display:inline-block; 
+    zoom:1;
+    *display:inline;
+    vertical-align:top;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top:-2px;
+}
+.jquery-radiobox .mark {display: inline;}
+
+.jquery-radiobox img {
+    vertical-align: middle; 
+    width: 15px;
+    height: 15px;
+    background: url(/img/sp-form.png) 0 0 no-repeat;
+}
+
+.jquery-radiobox-hover img {background-position:0 -35px;}
+.jquery-radiobox-checked img{background-position: 0 -70px;}
+.jquery-radiobox-checked:hover img{background-position:0 -105px;}
+.jquery-radiobox-disabled img{background-position: 0 -175px;}
+.jquery-radiobox.jquery-radiobox-checked .jquery-radiobox-disabled img{
+    background-position:0 -170px;
+}
+/* radio end */

@@ -1,0 +1,20 @@
+{
+  "name": "radiobox Jquery",
+  "main": "radiobox.js",
+  "authors": [
+    "martrix <andrew.russkin@gmail.com>"
+  ],
+  "description": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
